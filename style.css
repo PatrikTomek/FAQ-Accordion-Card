@@ -1,0 +1,58 @@
+body {
+  height: 913px;
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1200px;
+  height: 600px;
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+.woman_img-desktop {
+  position: relative;
+  height: 415px;
+  top: -20px;
+  margin-left: -100px;
+  z-index: 8;
+}
+.bg-pattern-desktop {
+  position: relative;
+  height: 1000px;
+  top: -800px;
+  left: -575px;
+  z-index: 5;
+}
+.box_img-desktop {
+  margin-top: 50px;
+  margin-right: -100px;
+  z-index: 10;
+}
+.header {
+
+}
+
+.accordion {
+    position: relative;
+    top: -1500px;
+    right: 200px;
+  float: right;
+  width: 400px;
+  font-size: 13px;
+  list-style-type: none;
+  z-index: 50;
+}
+
+.attribution {
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  bottom: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
