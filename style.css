@@ -1,10 +1,31 @@
 body {
   height: 913px;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  color: black;
   font-family: "Kumbh Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+p,
+h2 {
+  font-weight: 400;
+}
+h2:hover {
+  cursor: pointer;
+  color: hsl(14, 88%, 65%);
+}
+
+p {
+  opacity: 0.8;
+  display: none;
+}
+hr {
+  opacity: 0.5;
 }
 
 .container {
@@ -12,18 +33,19 @@ body {
   height: 600px;
   background-color: aliceblue;
   border-radius: 25px;
+  overflow: hidden;
 }
 .woman_img-desktop {
   position: relative;
   height: 415px;
-  top: -20px;
+  top: 70px;
   margin-left: -100px;
   z-index: 8;
 }
 .bg-pattern-desktop {
   position: relative;
   height: 1000px;
-  top: -800px;
+  top: -680px;
   left: -575px;
   z-index: 5;
 }
@@ -33,18 +55,24 @@ body {
   z-index: 10;
 }
 .header {
-
+  position: relative;
+  top: 60px;
+  right: 500px;
+  float: right;
 }
 
 .accordion {
-    position: relative;
-    top: -1500px;
-    right: 200px;
+  position: relative;
+  top: -1280px;
+  right: 170px;
   float: right;
   width: 400px;
   font-size: 13px;
   list-style-type: none;
   z-index: 50;
+}
+.active {
+  font-weight: 700;
 }
 
 .attribution {
