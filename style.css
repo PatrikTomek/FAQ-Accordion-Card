@@ -11,6 +11,21 @@ body {
 h1 {
   font-weight: 700;
 }
+
+.arrow {
+  width: 14px;
+  height: 9px;
+  float: right;
+  margin-top: 7px;
+  background-image: url("images/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: cover;
+}
+.reversed-arrow {
+  transform: rotate(180deg);
+}
+
 p,
 h2 {
   font-weight: 400;
@@ -22,6 +37,7 @@ h2:hover {
 
 p {
   opacity: 0.8;
+  font-size: 16px;
   display: none;
 }
 hr {
@@ -56,17 +72,18 @@ hr {
 }
 .header {
   position: relative;
-  top: 60px;
-  right: 500px;
+  top: 50px;
+  right: 490px;
   float: right;
+  font-size: 38px;
 }
 
 .accordion {
   position: relative;
   top: -1280px;
-  right: 170px;
+  right: 120px;
   float: right;
-  width: 400px;
+  width: 450px;
   font-size: 13px;
   list-style-type: none;
   z-index: 50;
@@ -74,6 +91,7 @@ hr {
 .active {
   font-weight: 700;
 }
+
 
 .attribution {
   position: absolute;
