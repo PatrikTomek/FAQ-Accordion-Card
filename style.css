@@ -50,6 +50,7 @@ hr {
   background-color: aliceblue;
   border-radius: 25px;
   overflow: hidden;
+  margin: 70px;
 }
 .woman_img-desktop {
   position: relative;
@@ -66,8 +67,8 @@ hr {
   z-index: 5;
 }
 .box_img-desktop {
-  margin-top: 50px;
-  margin-right: -100px;
+  margin-top: 55px;
+  margin-right: -165px;
   z-index: 10;
 }
 .header {
@@ -92,13 +93,70 @@ hr {
   font-weight: 700;
 }
 
-
 .attribution {
   position: absolute;
   font-size: 15px;
   text-align: center;
-  bottom: 50px;
+  bottom: 40px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.woman_img-mobile {
+  display: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1230px) {
+  .container {
+    overflow: visible;
+    width: 420px;
+    height: 670px;
+    margin-top: 180px;
+  }
+  .woman_img-desktop,
+  .box_img-desktop,
+  .bg-pattern-desktop {
+    display: none;
+  }
+  .woman_img-mobile {
+    display: flex;
+    position: relative;
+    top: -144px;
+    right: -55px;
+    height: 235px;
+  }
+  .bg-pattern-mobile {
+    position: relative;
+    top: -245px;
+    right: -54px;
+    height: 133px;
+  }
+  .header {
+    top: 170px;
+    right: 170px;
+  }
+  .accordion {
+    float: none;
+    z-index: 99;
+    width: 360px;
+    top: -105px;
+    right: 10px;
+  }
+  .accordion-question {
+    font-size: 17px;
+  }
+  .accordion-answer {
+    font-size: 14px;
+    width: 300px;
+  }
+  .accordion hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .attribution {
+    bottom: 10px;
+  }
 }
