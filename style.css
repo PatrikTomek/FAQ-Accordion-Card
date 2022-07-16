@@ -97,7 +97,7 @@ hr {
   position: absolute;
   font-size: 15px;
   text-align: center;
-  bottom: 40px;
+  bottom: -30px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -157,6 +157,6 @@ hr {
     margin-bottom: 20px;
   }
   .attribution {
-    bottom: 10px;
+    bottom: -110px;
   }
 }
